@@ -13,7 +13,6 @@ body {
 }
 
 .header {
-  width: 1440px;
   background-image: url(img/top.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -59,7 +58,7 @@ body {
 }
 .header__btn:hover {
   background: rgb(235, 68, 63);
-  cursor: pointer;
+  cursor: url(img/cursor.svg) 4 1, auto;
 }
 
 .box-game {
@@ -84,6 +83,7 @@ body {
 }
 .box-game__img:hover {
   border: 3px solid rgb(68, 210, 255);
+  cursor: url(img/cursor.svg) 4 1, auto;
 }
 .box-game__title {
   color: rgb(255, 255, 255);

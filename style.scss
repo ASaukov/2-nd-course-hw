@@ -13,7 +13,6 @@ body {
 }
 
 .header {
-    width: 1440px;
     background-image: url(img/top.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -57,7 +56,7 @@ body {
         transition: 0.5s;
         &:hover {
             background: rgb(235, 68, 63);
-            cursor: pointer;
+            cursor: url(img/cursor.svg) 4 1, auto;
         }
     }
 }
@@ -81,7 +80,8 @@ body {
         box-sizing: border-box;
         position: relative;
         &:hover {
-            border: 3px solid rgb(68, 210, 255);;
+            border: 3px solid rgb(68, 210, 255);
+            cursor: url(img/cursor.svg) 4 1, auto;
         }
     }
     &__title {
