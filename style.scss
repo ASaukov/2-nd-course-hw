@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.header {
+    background-image: url(img/top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1024px;
+    &__title {
+        color: rgb(255, 255, 255);
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0px;
+        text-align: left;
+        width: 788px;
+        padding-top: 217px;
+    }
+    &__text {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        width: 481px;
+        padding-top: 32px;
+        padding-bottom: 44px;
+    }
+    &__btn {
+        border-radius: 30px;
+        background: rgb(156, 3, 50);
+        border-style: none;
+        box-sizing: border-box;
+        width: 234px;
+        height: 48px;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: center;
+        font-family: Montserrat;
+        transition: 0.5s;
+        &:hover {
+            background: rgb(235, 68, 63);
+            cursor: url(img/cursor.svg) 4 1, auto;
+        }
+    }
+}
+
+.box-game {
+    background: rgb(0, 9, 21);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    justify-content: space-between;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    &__slot {
+        position: relative;
+    }
+    &__img {
+        border-radius: 16px;
+        height: 300px;
+        width: auto;
+        box-sizing: border-box;
+        position: relative;
+        &:hover {
+            border: 3px solid rgb(68, 210, 255);
+            cursor: url(img/cursor.svg) 4 1, auto;
+        }
+    }
+    &__title {
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0px;
+        position: absolute;
+        bottom: 32px;
+        left: 32px;
+
+    }
+}
