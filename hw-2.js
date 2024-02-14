@@ -8,3 +8,6 @@ alert(a);
 const firstIphone = 2007;
 alert(firstIphone);
 
+    // task 3 //
+const name = 'Брендан Эйх';
+alert(name);
