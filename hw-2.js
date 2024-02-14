@@ -11,3 +11,10 @@ alert(firstIphone);
     // task 3 //
 const name = 'Брендан Эйх';
 alert(name);
+
+    // task 4 //
+let x = 10;
+let y = 2;
+alert([x+y, x-y, x*y, x/y]);
+
+
