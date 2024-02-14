@@ -17,4 +17,7 @@ let x = 10;
 let y = 2;
 alert([x+y, x-y, x*y, x/y]);
 
+    // task 5 //
+let result = 2**5;
+alert(result);
 
