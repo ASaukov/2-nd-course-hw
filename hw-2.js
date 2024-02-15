@@ -36,3 +36,8 @@ num++;
 num--;
 alert(num);
 
+    // task 8 //
+let age = Number(prompt('Сколько Вам лет'));
+alert(age);
+
+
