@@ -21,3 +21,8 @@ alert([x+y, x-y, x*y, x/y]);
 let result = 2**5;
 alert(result);
 
+    // task 6 //
+let b = 9;
+let c = 2;
+alert(b % c);
+
