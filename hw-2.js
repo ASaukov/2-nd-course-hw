@@ -37,7 +37,30 @@ num--;
 alert(num);
 
     // task 8 //
-let age = Number(prompt('Сколько Вам лет'));
+let age = Number(prompt('Сколько Вам лет')); //Прописываем Number если в поле ввода от пользователя необходимо получить числовое значение//
 alert(age);
+
+    // task 9 //
+let user = {
+    name: 'Иван',
+    age: 21,
+    isAdmin: true,
+};
+
+// 9.1//
+user['sity of residence'] = true;
+console.log(user);
+
+// 9.2//
+user.age = 30;
+console.log(user);
+
+// 9.3//
+delete user['sity of residence'];
+console.log(user);
+
+// 9.4.//
+let info = prompt('Какую информацию хотите узнать о пользователе?', 'name, age, isAdmin',);
+alert(user[info]);
 
 
