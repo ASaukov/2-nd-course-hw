@@ -15,3 +15,8 @@ console.log(c > 0 && c < 10 ? 'Верно' : 'Неверно');
 let d = 175;
 let e = 4;
 console.log(d > 100 || e > 100 ? 'Верно' : 'Неверно');
+
+        // task 4 //
+let a = '2';
+let b = '3';
+alert(Number(a) + Number(b));
