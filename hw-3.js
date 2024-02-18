@@ -6,3 +6,7 @@ if (password === enterPass) {
 } else {
     console.log('Пароль введен неправильно');
 }
+
+        // task 2  //
+let c =2;
+console.log(c > 0 && c < 10 ? 'Верно' : 'Неверно');
