@@ -23,3 +23,14 @@ for (let key in obj) {
     console.log(`${key} - зарплата ${obj[key]} долларов.`);
 }
 
+      // 5 //
+let n = 1000;
+let num = 0;
+do {
+    n /= 2;
+    num++;
+} while(n >= 50);
+console.log('число', n);
+console.log("количество итераций", num);
+
+
