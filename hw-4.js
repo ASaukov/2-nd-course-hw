@@ -33,4 +33,8 @@ do {
 console.log('число', n);
 console.log("количество итераций", num);
 
-
+        // 6 //
+const friday = 5;
+for (let day = friday; day <= 31; day += 7) {
+    console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет`);
+}
