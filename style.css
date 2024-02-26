@@ -69,6 +69,7 @@ body {
   gap: 31px;
   padding-top: 128px;
   padding-bottom: 128px;
+  justify-content: center;
 }
 .box-game__link {
   position: relative;
@@ -95,7 +96,7 @@ body {
   left: 32px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
