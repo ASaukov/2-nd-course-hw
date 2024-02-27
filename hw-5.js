@@ -18,3 +18,16 @@ let squareNumber = d => d ** 2;
 let result = squareNumber(7);
 console.log(result);
 
+        // 4 //
+let age = Number(prompt('Сколько Вам лет'));
+let verification = age => {
+        if (age < 0) {
+                alert('Вы ввели не правильное значение');
+        } else if (age <= 12) {
+                alert('Привет, друг!');
+        } else {
+                alert('Добро пожаловать!');
+        }
+}
+verification(age);
+
