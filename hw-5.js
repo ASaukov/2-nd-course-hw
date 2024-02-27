@@ -1,10 +1,7 @@
         // 1 //
-function smallNumber(a, b) {
-    if (a <= b) {
-        return a;
-} else {
-        return b;
-    }
+let smallNumber = (a, b) => {
+        return a <= b ? a : b;
 }
-console.log(smallNumber(10, 8));
+console.log(smallNumber(6, 4));
 
+        // 2 //
