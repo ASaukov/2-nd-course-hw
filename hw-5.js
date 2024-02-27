@@ -10,3 +10,11 @@ let parity = x => {
 }
 console.log(parity(10));
 
+        // 3 //
+let squareNum = c => c ** 2;
+console.log(squareNum(8)); 
+
+let squareNumber = d => d ** 2;
+let result = squareNumber(7);
+console.log(result);
+
