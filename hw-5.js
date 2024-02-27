@@ -31,3 +31,9 @@ let verification = age => {
 }
 verification(age);
 
+        // 5 //
+let checkingNum = (a, b) => {
+        return isNaN(a) || isNaN(b) ? 'Одно или оба значения не являются числом' : a * b;
+}
+console.log(checkingNum(4, 'пять'));
+
