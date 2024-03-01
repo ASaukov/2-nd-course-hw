@@ -26,4 +26,29 @@
             left: 16px;
         }
     }
+
+    .game1 {
+        height: 654px;
+        justify-content: center;
+    }
+
+    .gameCard {
+        align-items: center;
+        &__title {
+            display: none;
+            &_mob {
+                display: block;
+                color: rgb(255, 255, 255);
+                font-family: Montserrat;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 39px;
+            }
+        }
+        &__text {
+            text-align: center;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }    
 }
