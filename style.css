@@ -40,7 +40,8 @@ body {
   padding-top: 32px;
   padding-bottom: 44px;
 }
-.header__btn {
+
+.btn {
   border-radius: 30px;
   background: rgb(156, 3, 50);
   border-style: none;
@@ -56,7 +57,7 @@ body {
   font-family: Montserrat;
   transition: 0.5s;
 }
-.header__btn:hover {
+.btn:hover {
   background: rgb(235, 68, 63);
   cursor: url(img/cursor.svg) 4 1, auto;
 }
@@ -96,6 +97,46 @@ body {
   left: 32px;
 }
 
+.game1 {
+  background: rgb(0, 9, 21);
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 800px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gameCard {
+  max-width: 584px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.gameCard__title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+}
+.gameCard__title_mob {
+  display: none;
+}
+.gameCard__text {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.icon {
+  width: 485px;
+}
+
 @media (max-width: 768px) {
   .center {
     padding-left: 16px;
@@ -121,5 +162,28 @@ body {
   }
   .box-game__title {
     left: 16px;
+  }
+  .game1 {
+    height: 654px;
+    justify-content: center;
+  }
+  .gameCard {
+    align-items: center;
+  }
+  .gameCard__title {
+    display: none;
+  }
+  .gameCard__title_mob {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+  .gameCard__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=style.css.map */

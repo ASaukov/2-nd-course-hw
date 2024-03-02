@@ -60,16 +60,16 @@ else {alert("Число не четное");
 }
 
         // 8 //
- //let clientOS = Number(prompt('Какое устройство вы используете', "введите 0 если iOS, 1 если Android"));
- //if (clientOS === 0) {
-    //alert("Установите версию приложения для iOS по ссылке");
- //} else if (clientOS === 1) {
-  //  alert('Установите версию приложения для Android по ссылке');
- //} else {
- //   alert('ввели не верное значение')
-// }
+let clientOS = Number(prompt('Какое устройство вы используете', "введите 0 если iOS, 1 если Android"));
+if (clientOS === 0) {
+alert("Установите версию приложения для iOS по ссылке");
+} else if (clientOS === 1) {
+alert('Установите версию приложения для Android по ссылке');
+} else {
+alert('ввели не верное значение')
+}  
 
- //9//
+        // 9 //
  let clientOS = Number(prompt('Какое устройство вы используете', "введите 0 если iOS, 1 если Android"));
  let clientDeviceYear = Number(prompt('Какой год выпуска вашего устройства?'));
  if (clientOS === 0 && clientDeviceYear < 2015) {
