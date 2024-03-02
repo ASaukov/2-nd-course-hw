@@ -9,3 +9,8 @@ for (let i = 0; i <= ten.length; i++) {
 const four = [1, 5, 4, 10, 0, 3];
 console.log(four.indexOf(4));
 
+    // 3 //
+const stringNum = [1, 3, 5, 10, 20];
+const joinNum = stringNum.join(" ");
+console.log(joinNum);
+
