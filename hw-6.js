@@ -31,6 +31,8 @@ console.log(arr5);
 
     // 6 //
 const arr6 = [9, 8, 7, 'a', 6, 5];
-arr6.sort().pop();
-console.log(arr6);
+arr6.sort();
+const filtrArr = arr6.filter(arr => arr != 'a');
+console.log(filtrArr);
 
+    // 7 //
