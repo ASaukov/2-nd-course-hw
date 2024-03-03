@@ -28,3 +28,9 @@ console.log(arr);
 const arr5 = [1, 1, 1];
 arr5.push(2, 2, 2);
 console.log(arr5);
+
+    // 6 //
+const arr6 = [9, 8, 7, 'a', 6, 5];
+arr6.sort().pop();
+console.log(arr6);
+
