@@ -14,3 +14,12 @@ const stringNum = [1, 3, 5, 10, 20];
 const joinNum = stringNum.join(" ");
 console.log(joinNum);
 
+    // 4 //
+const arr = [];
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 0; j < 3; j++) {
+        arr[i].push(1);
+    }
+}
+console.log(arr);
