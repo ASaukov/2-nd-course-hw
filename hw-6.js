@@ -50,3 +50,9 @@ console.log(reversText);
 const arr9 = [[1, 2, 3],[4, 5, 6]];
 const combArr9 = [...arr9[0], ...arr9[1]];
 console.log(combArr9);
+
+    // 10 //
+const arr10 = [4, 9, 3, 7, 5, 2];
+for (let i = 0; i < arr10.length - 1; i++) {
+    console.log(arr10[i] + arr10[i + 1]);
+}
