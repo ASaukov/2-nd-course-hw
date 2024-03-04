@@ -36,3 +36,8 @@ const filtrArr = arr6.filter(arr => arr != 'a');
 console.log(filtrArr);
 
     // 7 //
+const arr7 = [9, 8, 7, 6, 5];
+const guessNum = Number(prompt('Угадай одно из задуманных чисел от 1 до 20'));
+let isFound = arr7.includes(guessNum);
+alert(isFound == true ? 'Угадал' : 'Не угадал');
+
