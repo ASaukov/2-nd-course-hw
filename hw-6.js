@@ -45,3 +45,8 @@ alert(isFound == true ? 'Угадал' : 'Не угадал');
 const text = 'abcdef';
 const reversText = text.split('').reverse().join('');
 console.log(reversText);
+
+    // 9 //
+const arr9 = [[1, 2, 3],[4, 5, 6]];
+const combArr9 = [...arr9[0], ...arr9[1]];
+console.log(combArr9);
