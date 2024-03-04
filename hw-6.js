@@ -41,3 +41,7 @@ const guessNum = Number(prompt('Угадай одно из задуманных 
 let isFound = arr7.includes(guessNum);
 alert(isFound == true ? 'Угадал' : 'Не угадал');
 
+    // 8 //
+const text = 'abcdef';
+const reversText = text.split('').reverse().join('');
+console.log(reversText);
