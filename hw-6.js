@@ -56,3 +56,10 @@ const arr10 = [4, 9, 3, 7, 5, 2];
 for (let i = 0; i < arr10.length - 1; i++) {
     console.log(arr10[i] + arr10[i + 1]);
 }
+
+    // 11 //
+const arr11 = [1, 3, 5, 6, 7, 9];
+const squareNum = arr11.map(function (num) {
+    return num * num;
+})
+console.log(squareNum);
