@@ -66,3 +66,7 @@ const squareNum = filtrArr11.map(function (num) {
 console.log(squareNum);
 
     // 12 //
+const arr12 = ['qwe', 'qwert', 'qa', 'qwertyu', 'q'];
+const lengthArr = arr12.map((str) => str.length);
+console.log(lengthArr);
+
