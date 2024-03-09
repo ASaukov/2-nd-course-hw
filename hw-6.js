@@ -70,3 +70,8 @@ const arr12 = ['qwe', 'qwert', 'qa', 'qwertyu', 'q'];
 const lengthArr = arr12.map((str) => str.length);
 console.log(lengthArr);
 
+    // 13 //
+const arr13 = [-4, 6, -8, -10, 14, -15, 18];
+const negativeArr = arr13.filter(el => el < 0);
+console.log(negativeArr);
+
