@@ -58,8 +58,11 @@ for (let i = 0; i < arr10.length - 1; i++) {
 }
 
     // 11 //
-const arr11 = [1, 3, 5, 6, 7, 9];
-const squareNum = arr11.map(function (num) {
+const arr11 = [1, 3, 4.6, 5, 5.3, 6, 7, 9, 14.7, 19];
+const filtrArr11 = arr11.filter(el => el % 1 == 0); //Отсеиваем не целые числа
+const squareNum = filtrArr11.map(function (num) {
     return num * num;
 })
 console.log(squareNum);
+
+    // 12 //

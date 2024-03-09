@@ -50,11 +50,11 @@ userNum(n);
 
 // 7 //
 function getArea() {
-        return 3.14 * this.radius ** 2;
+        return Math.PI * this.radius ** 2;
 }
 
 function getPerimeter() {
-        return 2 * 3.14 * this.radius;
+        return 2 * Math.PI * this.radius;
 }
 
 const circle1 = {
