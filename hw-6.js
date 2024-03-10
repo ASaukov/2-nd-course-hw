@@ -61,8 +61,11 @@ console.log(reversText);
 
     // 9 //
 const arr9 = [[1, 2, 3],[4, 5, 6]];
-const combArr9 = [...arr9[0], ...arr9[1]];
+combArr9 = arr9.flat();
 console.log(combArr9);
+
+//const combArr9 = [...arr9[0], ...arr9[1]];
+//console.log(combArr9);
 
     // 10 //
 const arr10 = [4, 9, 3, 7, 5, 2];
