@@ -37,9 +37,22 @@ console.log(filtrArr);
 
     // 7 //
 const arr7 = [9, 8, 7, 6, 5];
-const guessNum = Number(prompt('Угадай одно из задуманных чисел от 1 до 20'));
-let isFound = arr7.includes(guessNum);
-alert(isFound == true ? 'Угадал' : 'Не угадал');
+function guessNum() {
+    let arrNum = Number(prompt('Угадай одно из задуманных чисел от 1 до 20'));
+    let isFound = arr7.includes(arrNum);
+    if (isNaN(arrNum)) {
+        alert('Вы ввели не число');
+        guessNum(arrNum);
+    } else if (isFound === true) {
+        alert('Угадал');
+    } else {
+        alert('Не угадал');
+    }
+}
+guessNum();
+//const guessNum = Number(prompt('Угадай одно из задуманных чисел от 1 до 20'));
+//let isFound = arr7.includes(guessNum);
+//alert(isFound == true ? 'Угадал' : 'Не угадал');
 
     // 8 //
 const text = 'abcdef';
