@@ -83,3 +83,12 @@ for(let i = 0; i < 10; i++) {
 const evenArr14 = arr14.filter(item => item % 2 === 0);
 console.log(arr14);
 console.log(evenArr14);
+
+    // 15 //
+const arr15 = [];
+    for(let i = 0; i < 6; i++) {
+        arr15.push(Math.round(Math.random() * 10))
+    }
+    const averadgeArr = (arr15.reduce((total, numb) => total + numb)) / arr15.length;
+    console.log(arr15);
+    console.log(averadgeArr);
