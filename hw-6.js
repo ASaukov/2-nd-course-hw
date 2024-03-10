@@ -75,3 +75,11 @@ const arr13 = [-4, 6, -8, -10, 14, -15, 18];
 const negativeArr = arr13.filter(el => el < 0);
 console.log(negativeArr);
 
+    // 14 //
+const arr14 = [];
+for(let i = 0; i < 10; i++) {
+    arr14.push(Math.round(Math.random() * 10));
+}
+const evenArr14 = arr14.filter(item => item % 2 === 0);
+console.log(arr14);
+console.log(evenArr14);
