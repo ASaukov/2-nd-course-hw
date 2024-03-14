@@ -44,3 +44,8 @@ function randomNumb7(a, b) {
     console.log(Math.ceil(Math.random() * (b - a) + a));
 }
 randomNumb7(2, 14);
+
+    // 8 //
+const date = new Date();
+console.log(date);
+
