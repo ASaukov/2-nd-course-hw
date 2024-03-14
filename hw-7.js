@@ -17,3 +17,8 @@ console.log(Math.floor(numb3));
 console.log(Math.ceil(numb3));
 console.log(Math.round(numb3));
 
+    // 4 //
+const numbers4 = [52, 53, 49, 77, 21, 32];
+console.log(Math.max(...numbers4));
+console.log(Math.min(...numbers4));
+
