@@ -49,3 +49,9 @@ randomNumb7(2, 14);
 const date = new Date();
 console.log(date);
 
+    // 9 //
+const currentDate = new Date();
+const days73 = 73 * 24 * 60 * 60 * 1000;
+const searchDate = +currentDate + days73;
+const daysAhead = new Date(searchDate);
+console.log(daysAhead);
