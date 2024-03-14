@@ -39,15 +39,20 @@ console.log(filtrArr);
 const arr7 = [9, 8, 7, 6, 5];
 function guessNum() {
     let arrNum = prompt('Угадай одно из задуманных чисел от 1 до 20');
-    if (arrNum === '') {
-        guessNum(arrNum);
-    } 
-    const numb = Number(arrNum);
-    if (isNaN(numb)) {
-        alert ('Вы ввели не число'),
-        guessNum(arrNum)
+    if (arrNum.trim() === '') {
+        return guessNum();
+    } else {
+        arrNum === Number;
     }
-        let isFound = arr7.includes(numb);
+    if (isNaN(arrNum)) {
+        alert ('Вы ввели не число');
+    }
+    // const numb = Number(arrNum);
+    // if (isNaN(numb)) {
+    //     alert ('Вы ввели не число'),
+    //     guessNum(arrNum)
+    // }
+        let isFound = arr7.includes(arrNum);
         alert(isFound === true ? 'Угадал' : 'Не угадал');
 }
 guessNum();
