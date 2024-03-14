@@ -28,3 +28,13 @@ function randomNumb() {
     console.log(Math.ceil(numb))
 }
 randomNumb();
+
+    // 6 //
+function randomArr6(n) {
+    const arr6 = [];
+    for (i=0; i<n/2; i++) {
+        arr6.push(Math.round(Math.random() * n))
+    }
+    console.log(arr6);
+}
+randomArr6(14);
