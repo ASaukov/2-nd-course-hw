@@ -22,3 +22,9 @@ const numbers4 = [52, 53, 49, 77, 21, 32];
 console.log(Math.max(...numbers4));
 console.log(Math.min(...numbers4));
 
+    // 5 //
+function randomNumb() {
+    const numb = Math.random() * 10;
+    console.log(Math.ceil(numb))
+}
+randomNumb();
