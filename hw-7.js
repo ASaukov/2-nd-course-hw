@@ -55,3 +55,15 @@ const days73 = 73 * 24 * 60 * 60 * 1000;
 const searchDate = +currentDate + days73;
 const daysAhead = new Date(searchDate);
 console.log(daysAhead);
+
+    // 10 //
+function myDate10() {
+    const months = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
+    const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+    const date10 = new Date();
+    const presentDate = "Дата: " + date10.getDate() + " " + months[date10.getMonth()] + " " + date10.getFullYear() + " - это " + days[date10.getDay()];
+    const presentTime = "Время: " + date10.getHours() + ":" + date10.getMinutes() + ":" + date10.getSeconds();
+    console.log(presentDate);
+    console.log(presentTime);
+}
+myDate10();
