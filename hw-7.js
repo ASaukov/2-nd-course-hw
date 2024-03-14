@@ -38,3 +38,9 @@ function randomArr6(n) {
     console.log(arr6);
 }
 randomArr6(14);
+
+    // 7 //
+function randomNumb7(a, b) {
+    console.log(Math.ceil(Math.random() * (b - a) + a));
+}
+randomNumb7(2, 14);
