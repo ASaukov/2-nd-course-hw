@@ -11,4 +11,9 @@ arr2.forEach((el) => {
     }
 });
 
+    // 3 //
+const numb3 = 32.58884;
+console.log(Math.floor(numb3));
+console.log(Math.ceil(numb3));
+console.log(Math.round(numb3));
 
