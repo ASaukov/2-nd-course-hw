@@ -38,37 +38,23 @@ console.log(filtrArr);
 // 7 //
 const arr7 = [9, 8, 7, 6, 5];
 function guessNum() {
-    let arrNum = prompt('Угадай одно из задуманных чисел от 1 до 20');
-    if (arrNum === '') {
-        guessNum(arrNum);
-    } 
-    const numb = Number(arrNum);
-    if (isNaN(numb)) {
-        alert ('Вы ввели не число'),
-        guessNum(arrNum)
+    const arrNub = prompt('Угадай число от 1 до 20');
+    if (arrNub && arrNub.trim()) {
+        const number7 = Number(arrNub);
+        if (!isNaN(number7)) {
+            if (arr7.includes(number7)) {
+                alert('Угадал');
+            } else {
+                alert('Не угадал');
+            }
+        } else {
+            alert('Ввели не число')
+        }
+    } else {
+        alert('Не верное значение');
     }
-        let isFound = arr7.includes(numb);
-        alert(isFound === true ? 'Угадал' : 'Не угадал');
 }
 guessNum();
-
-// 7.2
-//     let isFound = arr7.includes(arrNum);
-//     if (isNaN(arrNum)) {
-//         alert('Вы ввели не число');
-//         guessNum(arrNum);
-//     } else if (isFound === true) {
-//         alert('Угадал');
-//     } else {
-//         alert('Не угадал');
-//     }
-// }
-// guessNum()
-
-// 7.1
-//const guessNum = Number(prompt('Угадай одно из задуманных чисел от 1 до 20'));
-//let isFound = arr7.includes(guessNum);
-//alert(isFound == true ? 'Угадал' : 'Не угадал');
 
 // 8 //
 const text = 'abcdef';
