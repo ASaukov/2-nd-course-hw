@@ -108,6 +108,17 @@ body {
     align-items: center;
 }
 
+.game2 {
+    background: rgb(0, 9, 21);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
 .gameCard {
     max-width: 584px;
     display: flex;
@@ -130,6 +141,14 @@ body {
         font-size: 18px;
         font-weight: 300;
         line-height: 32px;
+        letter-spacing: 0px;
+    }
+    &__title2 {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
         letter-spacing: 0px;
     }
 }
