@@ -64,3 +64,19 @@ function myDate10() {
     console.log(presentTime);
 }
 myDate10();
+
+    // 11 //
+function rememberWords() {
+    const arr11 = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    arr11Sort = arr11.sort(() => Math.random() - 0.5);
+    alert (arr11Sort);
+    const firstValue = prompt('Укажи первое слово из списка');
+    const secondValue = prompt('Укажи последнее слово из списка');
+    if (arr11Sort[0].toLowerCase() == firstValue.toLowerCase() && arr11Sort[arr11Sort.length -1].toLowerCase() == secondValue.toLowerCase()) {
+        alert ('Ты выйграл!');
+    } else if (arr11Sort[0].toLowerCase() == firstValue.toLowerCase() || arr11Sort[arr11Sort.length -1].toLowerCase() == secondValue.toLowerCase()) {
+        alert ('Ты угадал только одно слово');
+    } else {
+        alert ('Ты проиграл, ни одного слова не совпало.')
+    }
+} 
