@@ -32,6 +32,11 @@
         justify-content: center;
     }
 
+    .game2 {
+        height: 654px;
+        justify-content: center;
+    }
+
     .gameCard {
         align-items: center;
         &__title {
@@ -44,6 +49,13 @@
                 font-weight: 700;
                 line-height: 39px;
             }
+        }
+        &__title2 {
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
         }
         &__text {
             text-align: center;
