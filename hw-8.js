@@ -43,4 +43,16 @@ console.log(people.sort((a, b) => {
            {name: 'Оксана', gender: 'female'}
         ];
         
-        console.log(filter(people2, isMale))
+        console.log(filter(people2, isMale));
+
+        // 3 //
+function showDate() {
+    const interval = setInterval(() => {
+        console.log(new Date);
+    }, 3000);
+    setTimeout(() => {
+        clearInterval(interval);
+    }, 1000 * 30);
+} 
+showDate();
+
