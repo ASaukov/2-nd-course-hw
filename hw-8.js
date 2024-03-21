@@ -45,7 +45,7 @@ console.log(people.sort((a, b) => {
         
         console.log(filter(people2, isMale));
 
-        // 3 //
+    // 3 //
 function showDate() {
     const interval = setInterval(() => {
         console.log(new Date);
@@ -56,3 +56,13 @@ function showDate() {
 } 
 showDate();
 
+    // 4 //
+    function delayForSecond(callback) {
+        setTimeout(() => {
+            callback();
+        }, 1000);
+    }
+    
+    delayForSecond(function () {
+       console.log('Привет, Глеб!');
+    });
